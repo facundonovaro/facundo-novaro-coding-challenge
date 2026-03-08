@@ -1,0 +1,21 @@
+{
+    "name": "facundo-novaro-hueyo-coding-challenge",
+    "version": "1.0.0",
+    "description": "Two sum problem implementation with custom testing framework",
+    "type": "module",
+    "scripts": {
+        "test": "tsc && node dist/route.test.js",
+        "build": "tsc",
+        "clean": "rm -rf dist"
+    },
+    "keywords": [
+        "typescript",
+        "two-sum",
+        "algorithm"
+    ],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "typescript": "^5.0.0"
+    }
+}
