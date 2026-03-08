@@ -4,7 +4,7 @@
 
 La función `route` recibe una lista de `venues` (números) y un `target` (número). El objetivo es devolver un par de índices de la lista cuyos valores sumen exactamente el `target`.
 
-La funcion va a recorrer la lista de venues y va a parar en cuanto haya encontrado un venue que, sumado a alguno de los ya procesados, sea igual al target. Es una funcion O(n) en tiempo y espacio, aunque dependiendo de los valores, puede tener una salida temprana, y a su vez guardar una cantidad reducida de elementos en el Map.
+La funcion va a recorrer la lista de venues y va a parar en cuanto haya encontrado un venue que, sumado a alguno de los ya procesados, sea igual al target.
 
 ## Requisitos
 
