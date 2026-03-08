@@ -7,7 +7,7 @@ export function route(venues: number[], target: number): number[] {
         throw new Error('Target tiene que ser mayor que 0');
     }
 
-    // Map paa guardar valor --> indice
+    // Map para guardar valor --> indice
     const map = new Map<number, number>();
 
     for (let i = 0; i < venues.length; i++) {
