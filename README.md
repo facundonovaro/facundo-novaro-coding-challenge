@@ -4,6 +4,8 @@
 
 La función `route` recibe una lista de `venues` (números) y un `target` (número). El objetivo es devolver un par de índices de la lista cuyos valores sumen exactamente el `target`.
 
+La funcion va a recorrer la lista de venues y va a parar en cuanto haya encontrado un venue que, sumado a alguno de los ya procesados, sea igual al target. Es una funcion O(n) en tiempo y espacio, aunque dependiendo de los valores, puede tener una salida temprana, y a su vez guardar una cantidad reducida de elementos en el Map.
+
 ## Requisitos
 
 - Los `venues` y el `target` son números enteros **mayores que cero**.
@@ -13,7 +15,7 @@ La función `route` recibe una lista de `venues` (números) y un `target` (núme
 En los siguientes casos se devuelve un error:
 
 - Si `target` es menor o igual a cero → Error: "Target tiene que ser mayor que 0"
-- Si la lista de `venue` tiene menos de 2 elementos
+- Si la lista de `venue` tiene menos de 2 elementos -> Error: "Se necesitan al menos 2 venues"
 - Si algún `venue` (venues[i]) es menor o igual a cero → Error: "Todos los valores tienen que ser mayores que 0"
 
 ## Algoritmo
