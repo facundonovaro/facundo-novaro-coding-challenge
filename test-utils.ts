@@ -1,4 +1,3 @@
-// Type declaration for Node.js process (without external dependencies)
 declare const process: {
     exit(code?: number): never;
 } | undefined;
